@@ -1,0 +1,126 @@
+{
+  "theme": "light",
+  "archetype": "Soft Editorial & Swiss Blend",
+  "colors": {
+    "background": {
+      "primary": "#FFFFFF",
+      "secondary": "#F8FAFC",
+      "tertiary": "#F1F5F9"
+    },
+    "text": {
+      "primary": "#0F172A",
+      "secondary": "#334155",
+      "muted": "#64748B",
+      "inverse": "#FFFFFF"
+    },
+    "brand": {
+      "primary": "#0EA5E9",
+      "hover": "#0284C7",
+      "light": "#E0F2FE",
+      "dark": "#0369A1"
+    },
+    "border": {
+      "light": "#E2E8F0",
+      "focus": "#7DD3FC"
+    },
+    "status": {
+      "breaking": "#EF4444",
+      "trending": "#F59E0B"
+    }
+  },
+  "typography": {
+    "font_family": {
+      "heading": "Playfair Display, serif",
+      "body": "Work Sans, sans-serif",
+      "mono": "IBM Plex Mono, monospace"
+    },
+    "scale": {
+      "h1": "text-4xl sm:text-5xl lg:text-6xl tracking-tight leading-none",
+      "h2": "text-2xl sm:text-3xl lg:text-4xl tracking-tight",
+      "h3": "text-xl sm:text-2xl",
+      "h4": "text-lg sm:text-xl",
+      "body": "text-base leading-relaxed",
+      "meta": "text-sm tracking-wide text-slate-500",
+      "overline": "text-xs uppercase tracking-[0.2em] font-semibold text-sky-600"
+    }
+  },
+  "spacing": {
+    "container": "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
+    "section": "py-12 sm:py-16 lg:py-24",
+    "card_padding": "p-6 sm:p-8",
+    "gap": {
+      "small": "gap-4",
+      "medium": "gap-6 sm:gap-8",
+      "large": "gap-12 sm:gap-16"
+    }
+  },
+  "surfaces": {
+    "card": "bg-white rounded-xl border border-slate-100 shadow-[0_2px_10px_rgba(0,0,0,0.03)] hover:shadow-[0_8px_30px_rgba(0,0,0,0.08)] transition-all duration-300",
+    "header": "bg-white/90 backdrop-blur-xl border-b border-slate-200 sticky top-0 z-50",
+    "sidebar": "bg-slate-50 rounded-xl p-6",
+    "badge": "bg-sky-50 text-sky-700 border border-sky-100 rounded-full px-3 py-1 text-xs font-medium"
+  },
+  "components": {
+    "breaking_news_ticker": {
+      "container": "flex items-center bg-slate-900 text-white overflow-hidden h-12",
+      "label": "bg-red-500 text-white px-4 h-full flex items-center font-bold text-sm uppercase tracking-wider whitespace-nowrap z-10",
+      "marquee": "flex-1 text-sm font-medium",
+      "library": "react-fast-marquee"
+    },
+    "navigation_bar": {
+      "wrapper": "flex items-center justify-between h-16 md:h-20",
+      "logo": "font-heading text-2xl md:text-3xl font-black tracking-tighter text-slate-900",
+      "category_scroll": "flex overflow-x-auto hide-scrollbar gap-6 py-3 border-y border-slate-100 text-sm font-medium text-slate-600",
+      "category_item": "whitespace-nowrap hover:text-sky-600 transition-colors cursor-pointer data-[active=true]:text-sky-600 data-[active=true]:border-b-2 data-[active=true]:border-sky-600 pb-2 -mb-3"
+    },
+    "hero_bento_grid": {
+      "wrapper": "grid grid-cols-1 md:grid-cols-12 gap-6",
+      "main_article": "col-span-1 md:col-span-8 row-span-2 relative group overflow-hidden rounded-2xl",
+      "main_overlay": "absolute inset-0 bg-gradient-to-t from-slate-900/90 via-slate-900/40 to-transparent",
+      "side_article": "col-span-1 md:col-span-4 rounded-xl border border-slate-100 overflow-hidden bg-white hover:shadow-md transition-shadow"
+    },
+    "buttons": {
+      "primary": "inline-flex items-center justify-center rounded-full bg-sky-500 px-6 py-2.5 text-sm font-medium text-white hover:bg-sky-600 transition-colors focus:outline-none focus:ring-2 focus:ring-sky-500 focus:ring-offset-2",
+      "secondary": "inline-flex items-center justify-center rounded-full bg-slate-100 px-6 py-2.5 text-sm font-medium text-slate-900 hover:bg-slate-200 transition-colors"
+    },
+    "article_page": {
+      "header": "max-w-4xl mx-auto pt-12 pb-8",
+      "content": "max-w-3xl mx-auto prose prose-slate prose-lg prose-headings:font-heading prose-a:text-sky-600 hover:prose-a:text-sky-700",
+      "image": "w-full rounded-2xl object-cover max-h-[70vh] mb-8"
+    },
+    "admin_dashboard": {
+      "layout": "flex h-screen bg-slate-50",
+      "sidebar": "w-64 bg-slate-900 text-white flex-shrink-0",
+      "content": "flex-1 overflow-auto p-8",
+      "stat_card": "bg-white p-6 rounded-xl border border-slate-200 shadow-sm flex items-center space-x-4",
+      "table": "w-full text-left text-sm text-slate-600 bg-white rounded-xl overflow-hidden border border-slate-200"
+    }
+  },
+  "icons_library": "lucide-react",
+  "media": {
+    "images": {
+      "hero_main": "https://images.unsplash.com/photo-1495020689067-958852a7765e?q=80&w=2069&auto=format&fit=crop",
+      "hero_side_1": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?q=80&w=2070&auto=format&fit=crop",
+      "hero_side_2": "https://images.unsplash.com/photo-1585829365295-ab7cd400c167?q=80&w=2070&auto=format&fit=crop",
+      "news_thumb_1": "https://images.unsplash.com/photo-1529156069898-49953eb1b5ae?q=80&w=2070&auto=format&fit=crop",
+      "news_thumb_2": "https://images.unsplash.com/photo-1572949645841-094f3a9c4c94?q=80&w=2070&auto=format&fit=crop",
+      "news_thumb_3": "https://images.unsplash.com/photo-1557992260-ec58e38d363c?q=80&w=1974&auto=format&fit=crop",
+      "avatar_1": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=2070&auto=format&fit=crop",
+      "video_thumb": "https://images.unsplash.com/photo-1611162617474-5b21e879e113?q=80&w=1974&auto=format&fit=crop"
+    }
+  },
+  "testing": {
+    "required_attributes": ["data-testid"]
+  },
+  "instructions_to_main_agent": [
+    "Install required dependencies: react-fast-marquee, lucide-react.",
+    "Implement the 'Waqt Ki Awaz' branding strictly using the provided fonts: Playfair Display for headings and Work Sans for body.",
+    "Ensure the Breaking News ticker uses react-fast-marquee for smooth, continuous looping.",
+    "The Hero Section should use the 'hero_bento_grid' rules: a prominent main article spanning 8 cols and smaller articles spanning 4 cols.",
+    "Maintain high readability with generous spacing, soft shadows (never harsh), and clear typographic hierarchy.",
+    "Ensure dark mode toggle functions correctly by mapping the defined light theme colors to their respective dark variants (e.g., slate-900 background, slate-800 cards, maintaining sky-blue accents).",
+    "Use standard Shadcn components for Admin Dashboard (Tables, Dialogs, Forms) but style public-facing news cards with custom HTML/Tailwind for maximum design fidelity.",
+    "The horizontal category scroll bar MUST hide the native scrollbar (.hide-scrollbar) and support touch/swipe scrolling.",
+    "Always apply 'data-testid' to interactive elements (e.g., data-testid='breaking-news-ticker', data-testid='category-nav-home')."
+  ]
+}
